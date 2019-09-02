@@ -1,0 +1,5 @@
+title: FTC-2019
+description: URL Shortener
+
+plugins:
+  - jekyll-redirect-from
