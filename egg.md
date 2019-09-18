@@ -1,4 +1,5 @@
-title: Redirect Easter Egg
+---
+title: Redirect FB
 redirect_from:
   - /egg/
   - /Egg/
