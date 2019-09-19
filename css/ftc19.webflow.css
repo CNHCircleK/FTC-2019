@@ -1743,7 +1743,7 @@ p {
 }
 
 .youtube {
-  display: none;
+  display: inline-block;
 }
 
 .image-43 {
@@ -1755,19 +1755,19 @@ p {
 }
 
 .youtube-3 {
-  display: none;
+  display: inline-block;
 }
 
 .youtube-4 {
-  display: none;
+  display: inline-block;
 }
 
 .youtube-5 {
-  display: none;
+  display: inline-block;
 }
 
 .youtube-6 {
-  display: none;
+  display: inline-block;
 }
 
 .link-6 {
@@ -2187,6 +2187,11 @@ p {
   background-image: url('../images/opening-page-2.gif');
   background-position: 0px 0px;
   background-size: cover;
+}
+
+.youtube-7 {
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 @media (max-width: 991px) {
@@ -3045,19 +3050,6 @@ p {
 }
 
 #w-node-b73d9ec4cf19-f42bc4c9 {
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-column-align: stretch;
-  justify-self: stretch;
-}
-
-#w-node-1dc113abd372-f42bc4c9 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
