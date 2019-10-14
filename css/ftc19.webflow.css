@@ -1470,13 +1470,15 @@ p {
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
-  background-color: #fcae73;
+  background-color: #c54d72;
   text-align: center;
   cursor: pointer;
 }
 
 .heading-12 {
   font-family: Cabin, sans-serif;
+  color: #fff;
+  text-align: center;
 }
 
 .wisps {
@@ -2194,6 +2196,56 @@ p {
   margin-left: 40px;
 }
 
+.link-block-11 {
+  position: relative;
+  z-index: 10;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #cd5077;
+  text-decoration: none;
+}
+
+.columns-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.section-33 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 @media (max-width: 991px) {
   .div-block-6 {
     margin-right: -102px;
@@ -2581,6 +2633,24 @@ p {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+  .columns-14 {
+    padding-top: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .section-33 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .column-33 {
+    padding-top: 96px;
   }
 }
 
@@ -3330,7 +3400,7 @@ p {
   grid-row-end: span 1;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   #w-node-f8feb8a86380-f42bc4c9 {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
