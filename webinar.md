@@ -2,6 +2,7 @@
 title: Redirect Webinar Zoom link
 redirect_from:
   - /webinar/
+  - /Webinar/
 redirect_to:
-  - https://ucla.zoom.us/j/6540840151
+  - https://www.youtube.com/watch?v=y_AzJbpoo24
 ---
